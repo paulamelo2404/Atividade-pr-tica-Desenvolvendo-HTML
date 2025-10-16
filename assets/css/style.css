@@ -172,5 +172,26 @@ form span {
     font-size: 0.75rem;
 }
 
+.article_mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+}
 
+.article_mapa address {
+    width: 75%;
+}
+
+.article_mapa address p {
+    font-weight: 600;
+}
+
+.article_mapa iframe {
+    align-self: center;
+}
 
